@@ -1,0 +1,26 @@
+<!--
+npm install @ngx-translate/core --save
+npm install @ngx-translate/http-loader
+
+https://www.youtube.com/watch?v=jCvsy4XSOEQ
+-->
+
+
+<div class="language-pricker-area">
+  <div class="picker-label">
+    {{'choose_language' | translate}}
+  </div>
+  <select (change)="selectLanguage($event)" class="language-picker">
+    <option value="en-US">{{'language.english' | translate}}</option>
+    <option value="bn-BD">{{'language.bangla' | translate}}</option>
+  </select>
+</div>
+
+<div class="content">
+  <h1>{{'welcome_text' | translate}}</h1>
+  <h2>{{'title'| translate}}</h2>
+  <button class="info">{{'info' | translate}}</button>
+</div>
+
+
+<router-outlet></router-outlet>

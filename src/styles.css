@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @font-face {
+  font-family: 'SolaimanLipi';
+  src: url(assets/solaiman-lipi/SolaimanLipi.ttf) format('truetype');
+} */
+
+
+@font-face {
+  font-family: "SolaimanLipi";
+  src: url("assets/solaiman-lipi/SolaimanLipi.eot");
+  src: url("assets/solaiman-lipi/SolaimanLipi.woff") format("woff"),
+      url("assets/solaiman-lipi/SolaimanLipi.ttf") format("truetype"),
+      url("assets/solaiman-lipi/SolaimanLipi.svg#SolaimanLipiNormal") format("svg"),
+      url("assets/solaiman-lipi/SolaimanLipi.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}

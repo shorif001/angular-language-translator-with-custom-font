@@ -1,0 +1,16 @@
+
+
+.content h1{
+  /* font-family: 'SolaimanLipi'; */
+  font-family: 'SolaimanLipi';
+  font-weight: normal;
+}
+.content h2{
+  font-family: 'SolaimanLipi';
+  font-weight: bold;
+}
+.content button{
+  font-family: 'SolaimanLipi';
+  font-weight: bold;
+}
+
